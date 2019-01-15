@@ -22,5 +22,25 @@ int main(){
             scanf("%c",&enter);
             scanf("%c",&enter);
         }
+        if(code==2)
+        {
+            printf("请输入要取出的金额\n");
+            int qu;
+            char enter;
+            scanf("%d",&qu);
+            if(qian>=qu)
+            {
+                qian-=qu;
+                printf("取款成功，点击回车继续\n");
+                scanf("%c",&enter);
+                scanf("%c",&enter);
+            }
+            else
+            {
+                printf("余额不足，取款失败，点击回车继续\n");
+                scanf("%c",&enter);
+                scanf("%c",&enter);
+            }
+        }
     }
 }
