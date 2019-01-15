@@ -11,5 +11,16 @@ int main(){
         printf("请选择相应功能\n");
         int code;
         scanf("%d",&code);
+        if(code==1)
+        {
+            printf("请输入要存的金额：\n");
+            int cun;
+            scanf("%d",&cun);
+            qian+=cun;
+            printf("存入成功，点击回车继续\n");
+            char enter;
+            scanf("%c",&enter);
+            scanf("%c",&enter);
+        }
     }
 }
