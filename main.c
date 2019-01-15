@@ -51,5 +51,10 @@ int main(){
             scanf("%c",&enter);
             scanf("%c",&enter);
         }
+        if(code==4)
+        {
+            printf("正在退出中……\n");
+            break;
+        }
     }
 }
