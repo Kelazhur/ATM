@@ -42,5 +42,14 @@ int main(){
                 scanf("%c",&enter);
             }
         }
+        if(code==3)
+        {
+            char enter;
+            printf("查询中……\n");
+            printf("您的余额为%d元\n",qian);
+            printf("查询完成，点击回车继续\n");
+            scanf("%c",&enter);
+            scanf("%c",&enter);
+        }
     }
 }
